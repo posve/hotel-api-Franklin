@@ -16,29 +16,29 @@ class UsuariosInDB(BaseModel):
 database_usuarios = Dict[str, UsuariosInDB]
 database_usuarios = {
     "juanrulfo@gmail.com" : UsuariosInDB(**{
-        "email": "juanrulfo@gmail.com",
-        "nombres": "Juan",
-        "apellidos": "Rulfo Vizcaíno",
-        "telefono": 3104632378,
-        "tipoDocumento": "CC",
-        "numeroDocumento": 10227923,
-        "pais": "México",
-        "ciudad": "San Gabriel",
-        "direccion": "Calle 52 #28-20",
-        "clave": "pedroparamo"}),
+                            "email": "juanrulfo@gmail.com",
+                            "nombres": "Juan",
+                            "apellidos": "Rulfo Vizcaíno",
+                            "telefono": 3104632378,
+                            "tipoDocumento": "CC",
+                            "numeroDocumento": 10227923,
+                            "pais": "México",
+                            "ciudad": "San Gabriel",
+                            "direccion": "Calle 52 #28-20",
+                            "clave": "pedroparamo"}),
     
-        "pepitoperez@gmail.com" : UsuariosInDB(**{
-        "email": "pepitoperez@gmail.com",
-        "nombres": "Pedro Pablo",
-        "apellidos": "Perez Gonzalez",
-        "telefono": 3196747556,
-        "tipoDocumento": "CC",
-        "numeroDocumento": 1019589623,
-        "pais": "Colombia",
-        "ciudad": "Barranquilla",
-        "direccion": "Calle 13 #17-06",
-        "clave": "pepeperez"}),
-    }
+                            "pepitoperez@gmail.com" : UsuariosInDB(**{
+                            "email": "pepitoperez@gmail.com",
+                            "nombres": "Pedro Pablo",
+                            "apellidos": "Perez Gonzalez",
+                            "telefono": 3196747556,
+                            "tipoDocumento": "CC",
+                            "numeroDocumento": 1019589623,
+                            "pais": "Colombia",
+                            "ciudad": "Barranquilla",
+                            "direccion": "Calle 13 #17-06",
+                            "clave": "pepeperez"}),
+                        }
     
  
 def get_usuarios(email: str):
