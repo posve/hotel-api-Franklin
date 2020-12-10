@@ -43,7 +43,7 @@ database_usuarios = {
  
 def get_usuarios(email: str):
     if email in database_usuarios.keys():
-        return database_usuarios [email]
+        return database_usuarios[email]
     else:
         return None
 
