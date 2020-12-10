@@ -37,6 +37,23 @@ database_reservas = {
     "ciudad": "San Gabriel",
     "direccion": "Calle 52 #28-20"
     }),
+
+    2 : ReservaInDB(**{"idReserva":2,
+    "fechaReserva":'2020-12-09 22:30:48.620822',
+    "fechaLlegada": '2020-12-11',
+    "fechaSalida": '2020-12-13',
+    "habitacion": "Suit de lujo",
+    "numeroPersonas": 4,
+    "nombres": "Gabriel",
+    "apellidos": "García Márquez",
+    "email": "gabopremionobel@gmail.com",
+    "telefono": 3002025632,
+    "tipoDocumento": "CC",
+    "numeroDocumento": 9845690,
+    "pais": "Colombia",
+    "ciudad": "Aracataca",
+    "direccion": "Calle 1 #2-20"
+    })
 }
 generator = {"id":1} #Auto-Incremental
 
