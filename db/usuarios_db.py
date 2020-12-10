@@ -17,6 +17,7 @@ database_usuarios = Dict[str, UsuariosInDB]
 database_usuarios = {
     "juanrulfo@gmail.com" : UsuariosInDB(**{
                             "email": "juanrulfo@gmail.com",
+                            "clave": "pedroparamo",
                             "nombres": "Juan",
                             "apellidos": "Rulfo Vizcaíno",
                             "telefono": 3104632378,
@@ -24,11 +25,12 @@ database_usuarios = {
                             "numeroDocumento": 10227923,
                             "pais": "México",
                             "ciudad": "San Gabriel",
-                            "direccion": "Calle 52 #28-20",
-                            "clave": "pedroparamo"}),
+                            "direccion": "Calle 52 #28-20"}),
+                            
     
-                            "pepitoperez@gmail.com" : UsuariosInDB(**{
+    "pepitoperez@gmail.com" : UsuariosInDB(**{
                             "email": "pepitoperez@gmail.com",
+                            "clave": "pepeperez",
                             "nombres": "Pedro Pablo",
                             "apellidos": "Perez Gonzalez",
                             "telefono": 3196747556,
@@ -36,8 +38,8 @@ database_usuarios = {
                             "numeroDocumento": 1019589623,
                             "pais": "Colombia",
                             "ciudad": "Barranquilla",
-                            "direccion": "Calle 13 #17-06",
-                            "clave": "pepeperez"}),
+                            "direccion": "Calle 13 #17-06"
+                            })
                         }
     
  
