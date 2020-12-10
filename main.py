@@ -1,5 +1,5 @@
 from db.reservas_db import ReservaInDB
-from db.reservas_db import save_reserva, get_reserva, update_reserva
+from db.reservas_db import save_reserva, get_reserva
 
 from db.usuarios_db import UsuariosInDB
 from db.usuarios_db import get_usuarios, update_usuarios 
